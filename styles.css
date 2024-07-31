@@ -27,11 +27,16 @@ body {
 
 .logoBanner {
     font-family: 'MyFont',sans-serif;
+    position: absolute ;
+    top: 25%;
+    right: 15%;
+    font-size: 5rem;
 }
 
 .logo {
     position: relative;
     display: inline-block;
+    direction: row;
     height: auto;
     width: 100%;
    
@@ -42,7 +47,7 @@ body {
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 0;
+    top: 160%;
     bottom: 0;
     left: 0%;
     margin: auto;
@@ -64,6 +69,8 @@ body {
     display: flex;
     flex-direction: row;
     border: 0;
+    margin: -0.5rem;
+    padding: 0;
 }
 
 #right-side, .footer {
@@ -154,4 +161,9 @@ password:invalid {
 input[type=text]:focus {
     border: 2px solid blue;
     outline-offset: 0;
+}
+
+span {
+    font-size: small;
+    color:red;
 }
